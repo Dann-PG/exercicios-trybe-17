@@ -1,0 +1,33 @@
+div:hover{
+    border-style: solid;
+    border-radius: 10px;
+}
+
+div:lang(t){
+    color:blue;
+}
+
+div:lang(r){
+    color: blueviolet;
+}
+
+div:lang(y){
+    color: aqua;
+    font-size: 20px;
+}
+
+div:lang(b){
+    color: darkgreen;
+}
+
+div:lang(e){
+    color: lime;
+}
+
+h3{
+    font-family: fantasy;
+}
+
+h3:lang(impar){
+    font-style: italic;
+}
